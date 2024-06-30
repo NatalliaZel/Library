@@ -1,0 +1,113 @@
+/* footer */
+
+.footer {
+  padding: 20px 20px 44px;
+  font-family: Inter;
+  color: #ffffff;
+  background-color: #0c0c0e;
+  overflow: hidden;
+}
+
+.footer__row {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 18px 44px;
+  }
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 29px 0;
+}
+
+.footer-address {
+  margin: 0 0 19px 0;
+}
+
+.footer-address,
+.footer-mode {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 0 0 1px;
+}
+
+.footer-twitter {
+  margin: 0 18px 0 0;
+}
+
+.footer-instagram {
+  margin: 0 18px 0 0;
+}
+
+.footer-mode {
+  text-align: right;
+}
+
+.footer-working {
+  margin: 0 0 10px 0;
+}
+
+.footer-line-wrapper {
+  margin: 0 0 45px 0;
+}
+
+.footer-line {
+  width: 1400px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-year,
+.footer-rs,
+.footer-git {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.footer-year,
+.footer-git {
+  flex: 0 0 20%;
+}
+
+.footer-rs {
+  flex: 0 0 60%;
+}
+
+@media (max-width: 768px) {
+  .footer-year {
+    flex: 0 0 16%;
+  }
+
+  .footer-git {
+    flex: 0 0 24%;
+  }
+
+  .footer-rs {
+    flex: 0 0 60%;
+  }
+}
+
+.footer-rs {
+  text-align: center;
+}
+
+.footer-git {
+  text-align: right;
+}

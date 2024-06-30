@@ -1,0 +1,96 @@
+/*contacts section*/
+
+.contacts {
+  padding: 20px 20px 35px 20px;
+  overflow: hidden;
+}
+
+.contacts-title {
+  margin: 0 0 20px 0;
+}
+
+.contacts-line-wrapper {
+  margin: 0 0 39px 0;
+}
+
+.contacts-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1260px) {
+  .contacts-row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1260px) {
+  .contacts-contacts {
+    margin: 0 0 100px 0;
+  }
+}
+
+.contacts-all {
+  font-family: Inter;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.contacts-all-subtitle {
+  margin: 0 0 40px 0;
+}
+
+.contacts-senior-subtitle {
+  margin: 0 0 20px 0;
+}
+
+.contacts-all-subtitle,
+.contacts-senior-subtitle {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.contacts-telephone,
+.contacts-service {
+  margin: 0 0 20px 0;
+}
+
+.contacts-putterham {
+  margin: 0 0 40px 0;
+}
+
+.contacts-senior {
+  font-family: Inter;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.contacts-senior span:nth-of-type(2) {
+  font-weight: 700;
+}
+
+@media (max-width: 1260px) {
+  .contacts-map {
+    align-self: center;
+  }
+}
+
+.contacts-map .contacts-img {
+  width: 696px;
+  height: 414px;
+}
+
+@media (max-width: 740px) {
+  .contacts-map .contacts-img {
+    width: 600px;
+    height: 355px;
+  }
+}

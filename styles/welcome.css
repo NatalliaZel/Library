@@ -1,0 +1,37 @@
+/*welcome section*/
+
+.welcome {
+  padding: 219px 0 159px 0;
+  background: linear-gradient(
+      180deg,
+      #0c0c0e 0%,
+      #0c0c0e 0.01%,
+      rgba(18, 18, 21, 0.1) 100%
+    ),
+    url(../assets/images/welcome_background.jpg) 50% 50% / 100% no-repeat;
+  overflow: hidden;
+}
+
+.welcome-wrapper {
+  width: 600px;
+  padding: 35px 100px;
+  background-color: #0c0c0e;
+}
+
+.welcome-wrapper p:first-child {
+  margin: 0 0 0 -10px;
+}
+
+.welcome-text {
+  font-family: Forum;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 50px;
+  color: #ffffff;
+}
+
+.welcome-title {
+  display: none;
+}

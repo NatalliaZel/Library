@@ -1,0 +1,130 @@
+/*coffee section*/
+
+.coffee {
+  padding: 5px 20px 40px 20px;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .coffee {
+    padding: 5px 19px 40px;
+  }
+}
+
+.cofee-title {
+  margin: 0 0 20px 0;
+}
+
+.coffee-line-wrapper {
+  margin: 0 0 40px 0;
+}
+
+.coffee-text {
+  margin: 0 0 40px 0;
+  font-family: Inter;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.coffee-text p:first-child {
+  padding: 0 5px 0 0;
+}
+
+.coffee-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .coffee-menu {
+    flex-direction: column;
+  }
+}
+
+.coffee-drink {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .coffee-drink {
+    margin: 0 0 40px 0;
+  }
+}
+
+.drink-subtitle,
+.dessert-subtitle {
+  margin: 0 0 40px 0;
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 40px;
+  color: #bb945f;
+}
+
+.dessert-subtitle {
+  text-align: right;
+}
+
+.drink-list .drink-item,
+.dessert-list .dessert-item {
+  margin: 0 0 40px 0;
+}
+
+.drink-list .drink-item:nth-child(6),
+.dessert-list .dessert-item:nth-child(6) {
+  margin: 0;
+}
+
+.drink-item,
+.dessert-item {
+  display: flex;
+  align-items: center;
+}
+
+.dessert-item {
+  justify-content: flex-end;
+}
+
+.drink-name {
+  margin: 0 5px 0 0;
+}
+
+.dessert-name {
+  margin: 0 56px 0 0;
+  text-align: right;
+}
+
+.drink-name,
+.dessert-name {
+  width: 250px;
+  font-family: Inter;
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.drink-line,
+.dessert-line {
+  width: 100px;
+  height: 1px;
+  margin: 0 61px 0 0;
+  background-color: #bb945f;
+}
+
+.drink-price,
+.dessert-price {
+  align-self: flex-end;
+  font-family: Forum;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.coffee-dessert {
+  flex: 0 0 50%;
+}
